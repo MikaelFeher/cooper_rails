@@ -23,7 +23,7 @@ module CooperRails
     generate.routing_specs false
     generate.controller_specs false
 
-    config.middleware.insert_before 0, "Rack::Cors" do
+    config.middleware.insert_before 0, Rack::Cors do
       allow do
         origins '*'
         resource '*', headers: :any, methods: [:get, :put, :delete, :post]
