@@ -1,24 +1,9 @@
-# README
+# Cooper's Test
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This application has 3 parts:
+* cooper_rails (Current repo)
+* [cooper_js](https://github.com/MikaelFeher/cooper_js) (The original JS logic was written in this project. The logic is incorporated in the cooper_ionic part).
+* [cooper_ionic](https://github.com/MikaelFeher/cooper_ionic) (The mobile part of this project built in Ionic).
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+### This repo is the backend/API built in Ruby on Rails.
+The project is built in Rails 5, using `PostgreSQL` database and `Devise` for user authentication.
